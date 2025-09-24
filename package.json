@@ -1,0 +1,32 @@
+{
+  "name": "medicina-malovania-website",
+  "version": "1.0.0",
+  "description": "Modern one-page website for Medicína Maľovania workshop",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "node server.js",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "echo 'Ready for deployment to Netlify'"
+  },
+  "keywords": [
+    "workshop",
+    "art-therapy",
+    "painting",
+    "slovakia",
+    "wellness",
+    "creativity"
+  ],
+  "author": "Medicína Maľovania",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "homepage": "."
+}

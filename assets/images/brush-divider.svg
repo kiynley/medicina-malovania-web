@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" preserveAspectRatio="none">
+  <path d="M0,20 Q50,5 100,18 T200,22 Q300,8 400,25 T600,18 Q700,28 800,15 T1000,22 Q1100,12 1200,20" 
+        fill="none" 
+        stroke="currentColor" 
+        stroke-width="8" 
+        stroke-linecap="round"
+        opacity="0.6"/>
+  <path d="M0,20 Q45,12 95,20 T195,24 Q295,15 395,23 T595,20 Q695,25 795,18 T995,24 Q1095,18 1200,20" 
+        fill="none" 
+        stroke="currentColor" 
+        stroke-width="12" 
+        stroke-linecap="round"
+        opacity="0.8"/>
+  <path d="M0,20 Q55,8 105,22 T205,20 Q305,10 405,28 T605,16 Q705,30 805,12 T1005,20 Q1105,15 1200,20" 
+        fill="none" 
+        stroke="currentColor" 
+        stroke-width="15" 
+        stroke-linecap="round"/>
+</svg>

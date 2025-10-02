@@ -178,3 +178,18 @@ window.addEventListener('load', function() {
 
 // Initialize body opacity
 document.body.style.opacity = '0';
+
+// Toggle bio accordion
+function toggleBio(button) {
+    const bioContainer = button.parentElement;
+    const bioFull = bioContainer.querySelector('.bio-full');
+    const isExpanded = bioFull.style.display === 'block';
+    
+    if (isExpanded) {
+        bioFull.style.display = 'none';
+        button.textContent = 'Zobraziť viac';
+    } else {
+        bioFull.style.display = 'block';
+        button.textContent = 'Zobraziť menej';
+    }
+}
